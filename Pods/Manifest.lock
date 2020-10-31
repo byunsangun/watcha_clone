@@ -1,0 +1,108 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (5.3.0)
+  - KakaoSDK (2.0.4):
+    - KakaoSDKAuth (= 2.0.4)
+    - KakaoSDKCommon (= 2.0.4)
+    - KakaoSDKLink (= 2.0.4)
+    - KakaoSDKNavi (= 2.0.4)
+    - KakaoSDKStory (= 2.0.4)
+    - KakaoSDKTalk (= 2.0.4)
+    - KakaoSDKTemplate (= 2.0.4)
+    - KakaoSDKUser (= 2.0.4)
+  - KakaoSDKAuth (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+  - KakaoSDKCommon (2.0.4):
+    - Alamofire (~> 5.1)
+  - KakaoSDKLink (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+    - KakaoSDKTemplate (= 2.0.4)
+  - KakaoSDKNavi (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+  - KakaoSDKStory (2.0.4):
+    - KakaoSDKAuth (= 2.0.4)
+    - KakaoSDKCommon (= 2.0.4)
+  - KakaoSDKTalk (2.0.4):
+    - KakaoSDKAuth (= 2.0.4)
+    - KakaoSDKCommon (= 2.0.4)
+    - KakaoSDKTemplate (= 2.0.4)
+  - KakaoSDKTemplate (2.0.4):
+    - KakaoSDKCommon (= 2.0.4)
+  - KakaoSDKUser (2.0.4):
+    - KakaoSDKAuth (= 2.0.4)
+    - KakaoSDKCommon (= 2.0.4)
+  - Realm (10.0.0):
+    - Realm/Headers (= 10.0.0)
+  - Realm/Headers (10.0.0)
+  - RealmSwift (10.0.0):
+    - Realm (= 10.0.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - Alamofire (~> 5.1)
+  - KakaoSDK
+  - KakaoSDKUser
+  - RealmSwift
+  - SnapKit
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKLink
+    - KakaoSDKNavi
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  KakaoSDK: 9e2d0ddb9828e7e68cdc45cb756d4c649c65b1ba
+  KakaoSDKAuth: 3a88e4a110243f8c6b9948c5ec85670c7acaebf6
+  KakaoSDKCommon: 070472d0638ea6b28684a23c195e47015349e51b
+  KakaoSDKLink: a90a919c4b00dc85bbf21d91842961c105317317
+  KakaoSDKNavi: 698659afffcd6d069febe0d1eab7a2dc524697f5
+  KakaoSDKStory: da6ee55062acc3bd667315773671e55c85b5ca56
+  KakaoSDKTalk: 8cf6299b0eea7cf3139ab0f62b415fd054f83a29
+  KakaoSDKTemplate: 330007aea0b46de1ed93e4cbddc7b4c3b59bdc25
+  KakaoSDKUser: 7951e09f9e6de3908ae2d7f8486290c8607c217a
+  Realm: 5654b8e5e45034d07b219e089034be2ef7d1e7bf
+  RealmSwift: 5b4c8c85be4c14ff52054a4d80a8d338167dd79c
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 279853cd9acfb47b40a7bf7ba33ddb605acc969a
+
+COCOAPODS: 1.10.0

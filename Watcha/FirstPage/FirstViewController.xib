@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="Watcha" customModuleProvider="target">
+            <connections>
+                <outlet property="firstNavigationBar" destination="FUo-st-1Mj" id="Vx5-7r-STv"/>
+                <outlet property="introLabel" destination="chA-EE-aiM" id="T6J-Ep-9d6"/>
+                <outlet property="introLabel2" destination="v78-hQ-rmD" id="q0w-gB-CRX"/>
+                <outlet property="introLabel3" destination="urs-Hu-PUz" id="Uiy-8f-zrU"/>
+                <outlet property="introLabel4" destination="flz-Ko-2hb" id="iEz-IF-XbF"/>
+                <outlet property="introLabel5" destination="HOp-2q-P17" id="Gl2-DE-7gT"/>
+                <outlet property="introLabel6" destination="HIL-tY-JxK" id="bzT-jZ-XPm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87M-2v-NYS">
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icA-JM-23G">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="영화, 드라마, 예능 등 8만 편의 작품" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v78-hQ-rmD">
+                                    <rect key="frame" x="19" y="439" width="336" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="지금 무료로 무제한 감상 시작" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chA-EE-aiM">
+                                    <rect key="frame" x="19" y="312" width="336" height="119"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="119" id="wiO-u1-tdk"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다양한 디바이스에서 자유롭게 감상" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urs-Hu-PUz">
+                                    <rect key="frame" x="19" y="775" width="336" height="76"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="76" id="8au-aV-nMw"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <navigationBar contentMode="scaleToFill" id="FUo-st-1Mj">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <items>
+                                        <navigationItem title="Title" id="0Du-HP-LKU">
+                                            <barButtonItem key="rightBarButtonItem" style="plain" id="3ah-dB-gPW">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GQe-SZ-wMT">
+                                                    <rect key="frame" x="320" y="7" width="39" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="로그인">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                </button>
+                                            </barButtonItem>
+                                        </navigationItem>
+                                    </items>
+                                </navigationBar>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5억개 평가 데이터 기반 정확한 추천" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOp-2q-P17">
+                                    <rect key="frame" x="19" y="1161" width="336" height="76"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="76" id="EFZ-8a-0vu"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="취향에 안 맞는 작품에 두 시간을 낭비할 순 없으니까" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIL-tY-JxK">
+                                    <rect key="frame" x="19" y="1245" width="336" height="40.666666666666742"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC, 태블릿, 폰, 크롬캐스트, TV 어디서나 최고의 화질로" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flz-Ko-2hb">
+                                    <rect key="frame" x="19" y="859" width="336" height="63"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="63" id="EmH-ny-H3b"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="chA-EE-aiM" firstAttribute="leading" secondItem="v78-hQ-rmD" secondAttribute="leading" id="65y-fs-Dnp"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="trailing" secondItem="HIL-tY-JxK" secondAttribute="trailing" id="HkF-Z6-azj"/>
+                                <constraint firstItem="HIL-tY-JxK" firstAttribute="top" secondItem="HOp-2q-P17" secondAttribute="bottom" constant="8" symbolic="YES" id="QaV-8j-K6W"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="centerX" secondItem="chA-EE-aiM" secondAttribute="centerX" id="SA6-cT-xSw"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="leading" secondItem="flz-Ko-2hb" secondAttribute="leading" id="VvR-pe-DVo"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="centerX" secondItem="v78-hQ-rmD" secondAttribute="centerX" id="aPw-z7-prS"/>
+                                <constraint firstAttribute="bottom" secondItem="urs-Hu-PUz" secondAttribute="bottom" constant="649" id="fJM-Iv-4KR"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="leading" secondItem="v78-hQ-rmD" secondAttribute="leading" id="gVk-Kz-yQW"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="trailing" secondItem="HOp-2q-P17" secondAttribute="trailing" id="gqL-wY-tu2"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="leading" secondItem="HOp-2q-P17" secondAttribute="leading" id="iWO-UF-c1X"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="trailing" secondItem="flz-Ko-2hb" secondAttribute="trailing" id="pmi-dn-goJ"/>
+                                <constraint firstItem="flz-Ko-2hb" firstAttribute="top" secondItem="urs-Hu-PUz" secondAttribute="bottom" constant="8" symbolic="YES" id="qGU-rD-K65"/>
+                                <constraint firstItem="v78-hQ-rmD" firstAttribute="top" secondItem="chA-EE-aiM" secondAttribute="bottom" constant="8" symbolic="YES" id="qSI-Xm-zLe"/>
+                                <constraint firstItem="urs-Hu-PUz" firstAttribute="leading" secondItem="HIL-tY-JxK" secondAttribute="leading" id="ufw-Py-ZTS"/>
+                                <constraint firstAttribute="bottom" secondItem="HOp-2q-P17" secondAttribute="bottom" constant="263" id="vga-Xr-if3"/>
+                                <constraint firstAttribute="height" constant="1500" id="wu7-Hj-NOO"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="icA-JM-23G" firstAttribute="leading" secondItem="87M-2v-NYS" secondAttribute="leading" id="Bq7-84-Elv"/>
+                        <constraint firstItem="icA-JM-23G" firstAttribute="top" secondItem="87M-2v-NYS" secondAttribute="top" id="IE6-JO-Chg"/>
+                        <constraint firstAttribute="trailing" secondItem="icA-JM-23G" secondAttribute="trailing" id="i4P-u9-1A3"/>
+                        <constraint firstAttribute="bottom" secondItem="icA-JM-23G" secondAttribute="bottom" id="wbn-Er-5Zh"/>
+                        <constraint firstItem="icA-JM-23G" firstAttribute="centerX" secondItem="87M-2v-NYS" secondAttribute="centerX" id="xx1-32-MWd"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="87M-2v-NYS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3Ci-6G-8pf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="87M-2v-NYS" secondAttribute="trailing" id="JZD-1Q-8pX"/>
+                <constraint firstItem="87M-2v-NYS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ldd-GX-L7C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="87M-2v-NYS" secondAttribute="bottom" id="qDm-pJ-dld"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="130.40000000000001" y="83.497536945812811"/>
+        </view>
+    </objects>
+</document>
