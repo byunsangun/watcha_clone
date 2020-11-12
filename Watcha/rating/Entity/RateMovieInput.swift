@@ -1,5 +1,5 @@
 //
-//  SpecificCharacteristicDataManager.swift
+//  RateMovieInput.swift
 //  Watcha
 //
 //  Created by 변상운 on 2020/11/12.

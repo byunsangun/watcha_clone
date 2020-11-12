@@ -1,5 +1,5 @@
 //
-//  SpecificCharacteristicResponse.swift
+//  RateMovieResponse.swift
 //  Watcha
 //
 //  Created by 변상운 on 2020/11/12.

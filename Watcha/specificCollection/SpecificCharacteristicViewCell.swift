@@ -16,6 +16,9 @@ class SpecificCharacteristicViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        
+        
     }
 
 }
